@@ -10,6 +10,7 @@ tags: Hadoop MapReduce Yarn
 {:toc}
 
 Hadoop中的MapReduce的工作机制分为两种：
+
 - MapReduce 1 也就是Hadoop 2.0之前的工作机制
 - YARN 
 
