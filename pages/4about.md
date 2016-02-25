@@ -32,6 +32,8 @@ icon: glyphicon-heart
 
 这个博客主要用于记录一个菜鸟程序猿的Growth之路。
 
+2016.2.25 | 绑定个人域名啦~加入百度、谷歌等搜索引擎。
+2016.2.19 | 添加文章归档、个人书单页。
 2016.2.13 | 根据jekyll3修改高亮效果，添加Google Analyze功能。
 2016.1          |  尝试用jekyll + github 搭建一个博客，使用[ Gaohaoyang ](http://gaohaoyang.github.io/) 的模板，准备有时间慢慢修改。
  
