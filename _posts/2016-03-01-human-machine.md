@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "人是不是机器？"
-date:   2016-01-28 23:03:54
+date:   2016-03-01 21:03:00
 categories: 杂谈
 ---
 
