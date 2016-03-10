@@ -22,8 +22,7 @@ public class DBManager {
         Connection conn = null;
         try {      
             //初始化查找命名空间
-            Context ctx = new InitialContext();  
-            //参数java:comp/jdbc/learning_db为数据源和JNDI绑定的名字
+            Context ctx = new InitialContext();
             DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/dataminningdb"); 
             conn = ds.getConnection();
         } catch (Exception e) {
