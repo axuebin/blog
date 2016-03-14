@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "关于Servlet生命周期的笔记"
+title:  "Servlet学习笔记（一）"
 date:   2016-01-24 19:12:54
 categories: Servlet
 tags: Servlet
