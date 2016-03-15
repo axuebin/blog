@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "百度Web前端技术学院-三栏式布局"
+title:  "百度Web前端技术学院--三栏式布局"
 date:   2016-03-15 14:12:00
 categories: 前端
 tags: Html Css
@@ -52,6 +52,7 @@ html代码：
 </body>
 </html>
 ```
+
 附上css：
 
 ```css
@@ -68,6 +69,7 @@ html代码：
     .center p{text-indent: 1cm; }
     .center a{text-decoration: none;}
 ```
+
 ## 参考资料
 
 - [MDN：position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/position)：了解 CSS position 属性的基本知识
