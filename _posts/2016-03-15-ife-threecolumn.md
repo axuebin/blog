@@ -5,6 +5,7 @@ date:   2016-03-15 14:12:00
 categories: 前端
 tags: Html Css
 ---
+
 * content
 {:toc}
 
@@ -72,19 +73,19 @@ html代码：
     .center a{text-decoration: none;}
 ```
 
-### 笔记
+## 笔记
 
-#### html
+### html
 
 这里我们用到了“左右侧浮动，中间margin的方法”来实现左右固定中间自适应的效果。
 
 这里记录一下用到的html标签：
 
-##### `<img></img>`
+#### `<img></img>`
 
 这是html中的插入图片的标签。我在这个标签中使用了两个属性，分别是src和title属性。src属性顾名思义就是源文件了，而title属性主要是为图片提供描述性文字，在鼠标停留在图片上的时候，这个文字就会出现。
 
-##### `<a href="" target="_blank"></a>`
+#### `<a href="" target="_blank"></a>`
 
 `<a>`标签的href属性是用来指定超链接目标的URL。这个URL可以是一个网页，一个图片甚至是一段Javascript代码段。
 
@@ -103,11 +104,11 @@ a:active {color: #0000FF}	/* 选定的链接 */
 */
 ```
 
-#### css
+### css
 
 这里记录一下用到的css属性：
 
-##### `float`
+#### `float`
 
 float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，而不论它本身是何种元素。
 
@@ -127,17 +128,57 @@ float 属性定义元素在哪个方向浮动。以往这个属性总应用于�
 
 再看看这第三种情况，这是`.first{float:left;}.second{float:right;}`的效果，此时第一个div是靠左浮动，而第二个div是靠右浮动。
 
-##### `margin`
+#### `margin`
 
-##### `overflow`
+margin 简写属性在一个声明中设置所有外边距属性。该属性可以有1到4个值：
 
-##### `text-indent`
+```css
+margin:10px 5px 15px 20px;/*上10 右5 下15 左20，也就是顺时针*/
+margin:10px 5px 15px;/*上10 左右5 下15*/
+margin:10px 5px;/*上下10 左右5*/
+margin:10px;/*上下左右都是10*/
+```
 
+#### `overflow`
 
-##### `padding`
+overflow 属性规定当内容溢出元素框时发生的事情。它有以下几个值：
 
-##### `border`
+|值|描述|
+|---|:---|
+|visible|会溢出元素框。|
+|hidden|溢出的元素就看不见了。|
+|scroll|会显示滚动条。|
+|hidden|溢出的元素就看不见了。|
+|inherit|从父元素继承。|
 
+#### `text-indent`
+
+text-indent 属性规定文本块中首行文本的缩进。
+
+#### `padding`
+
+padding 简写属性在一个声明中设置所有内边距属性。和内边距一样，可以设置1到4个值：
+
+```css
+padding:10px 5px 15px 20px;/*上10 右5 下15 左20，也就是顺时针*/
+padding:10px 5px 15px;/*上10 左右5 下15*/
+padding:10px 5px;/*上下10 左右5*/
+padding:10px;/*上下左右都是10*/
+```
+
+#### `border`
+
+border 简写属性在一个声明设置所有的边框属性。
+
+我们可以按照顺序给border设置3个值，分别是：`border-width` `border-style` `border-color`比如：
+	
+```css
+p{
+  border:5px solid red;
+  }
+```
+
+这就是设置了一个5px宽的实线的红色的边框。
 
 
 ## 参考资料
