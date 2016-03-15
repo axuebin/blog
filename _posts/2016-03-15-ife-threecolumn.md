@@ -15,6 +15,8 @@ tags: Html Css
 
 ## 左右固定中间自适应布局
 
+### 源码
+
 html代码：
 
 ```html
@@ -69,6 +71,74 @@ html代码：
     .center p{text-indent: 1cm; }
     .center a{text-decoration: none;}
 ```
+
+### 笔记
+
+#### html
+
+这里我们用到了“左右侧浮动，中间margin的方法”来实现左右固定中间自适应的效果。
+
+这里记录一下用到的html标签：
+
+##### `<img></img>`
+
+这是html中的插入图片的标签。我在这个标签中使用了两个属性，分别是src和title属性。src属性顾名思义就是源文件了，而title属性主要是为图片提供描述性文字，在鼠标停留在图片上的时候，这个文字就会出现。
+
+##### `<a href="" target="_blank"></a>`
+
+`<a>`标签的href属性是用来指定超链接目标的URL。这个URL可以是一个网页，一个图片甚至是一段Javascript代码段。
+
+我们可以为它添加`target="_blank"`属性。如果有了这个属性，在点击链接的时候就会在新窗口显示内容。
+
+另外，我们还可以让这个链接的不同状态以不同方式显示：
+
+```css
+a:link {color: #FF0000}		/* 未访问的链接 */
+a:visited {color: #00FF00}	/* 已访问的链接 */
+a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+/*tips:
+1.a:hover 必须被置于 a:link 和 a:visited 之后，才是有效的。
+2.a:active 必须被置于 a:hover 之后，才是有效的。
+*/
+```
+
+#### css
+
+这里记录一下用到的css属性：
+
+##### `float`
+
+float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，而不论它本身是何种元素。
+
+它的值有：left（左）,right（右）,none（无）,inherit（父元素继承）。
+
+我们来看看三种情况下的：
+
+![](http://i.imgur.com/9QaM9p0.png)
+
+这个是没有添加float属性的。
+
+![](http://i.imgur.com/t04XlO8.png)
+
+这个是添加了`.first{float:left;}.second{float:left;}`的效果，这时候第二个div就是从左到右紧贴第一个div。
+
+![](http://i.imgur.com/IGQW07g.png)
+
+再看看这第三种情况，这是`.first{float:left;}.second{float:right;}`的效果，此时第一个div是靠左浮动，而第二个div是靠右浮动。
+
+##### `margin`
+
+##### `overflow`
+
+##### `text-indent`
+
+
+##### `padding`
+
+##### `border`
+
+
 
 ## 参考资料
 
