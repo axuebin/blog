@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "基于JavaScript API的热力图实现（前后端）"
+title:  "大数据可视化平台（前后端）"
 date:   2016-03-19 19:14:54
-categories: 前端
+categories: 个人项目
 ---
 
 * content
