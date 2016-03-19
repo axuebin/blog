@@ -109,16 +109,39 @@ position是决定了元素将如何定位的属性。
 |static|这是默认值。相当于没有定位。|
 |relative|相对定位，相对于正常位置来定位。|
 |absolute|绝对定位，相对于**最近一级**的不是static的父元素定位。|
-|fixed|绝对定位，相对于**浏览器窗口**来定位。|
+|fixed|绝对定位，相对于**浏览器窗口**来定位。即便页面滚动，它还是会在相同的位置。|
 |inherit|从父元素继承。|
 
 #### `top、bottom、left、right`
-#### `margin:auto`
+
+该属性规定元素的顶部边缘。分别定义了一个定位元素的上下左右外边距边界与其包含块上下左右边界之间的偏移。
+
+注意：对于相对定义元素，如果top和bottom都是auto，则计算值相当于0。
+
 #### `border-bottom-right-radius`
+
+这条属性是CSS3新添加的属性。是用来定义右下角边框的形状的。
+
+这条属性可以有两个值，也就是：
+
+`border-bottom-right-radius: length|% [length|%];`
+
+第一个值是水平半径，第二个值是垂直半径。如果忽略了第二个值，则复制第一个值。
+
+注意：如果长度为0，则边角就是一个正方形；如果只有一个值，则是圆形。
+
 #### `border-radius`
 
+这条属性是CSS3新添加的属性。用来设置四个border-*-radius属性，顾名思义就有四个值了。
 
+这样一条`border-radius=50px`就相当于：
 
+```css
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+```
 
 ## 参考资料
 
