@@ -1,0 +1,28 @@
+# Site settings
+title: 薛彬的博客
+email: xbmail2013@163.com
+description: Xuebin's Personal Growth Website
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+#url: "https://axuebin.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  xb9207
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+paginate: 10
+paginate_path: "page:num"
+
+highlighter: rouge
+
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
