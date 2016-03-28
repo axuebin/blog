@@ -3,7 +3,7 @@ layout: post
 title:  "百度Web前端技术学院--水平垂直居中"
 date:   2016-03-18 20:12:00
 categories: 前端
-tegs: Html Css
+tags: Html Css
 ---
 
 * content

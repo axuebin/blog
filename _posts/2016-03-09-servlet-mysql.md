@@ -3,6 +3,7 @@ layout: post
 title:  "Servlet学习笔记（二）"
 date:   2016-03-9 09:43:54
 categories: Java Servlet
+tags: Servlet Mysql
 ---
 
 * content
