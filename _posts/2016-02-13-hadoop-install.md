@@ -12,6 +12,8 @@ tags: Hadoop
 
 记录安装hadoop时需要配置的几个文件。
 
+----------
+
 ## 配置master上的
 
 ### hadoop-env.sh

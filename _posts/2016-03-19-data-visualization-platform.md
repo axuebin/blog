@@ -15,8 +15,7 @@ tags: Java 前端 Servlet
 
 >更新至热力图。
 
----
-
+----------
 
 ## 系统设计
 
@@ -40,6 +39,8 @@ tags: Java 前端 Servlet
 
 本系统的用户端是一个Web站点，通过HTML+CSS+JavaScript等web技术进行前端网页设计。HTML称为超文本标记语言，是为“网页创建和其他可在网页浏览器中看到的信息”设计的一中标记语言，用来结构化信息；CSS称为层叠样式表，主要是为结构化文档（本系统中即是HTML文档）添加样式；JavaScript是一种标准化的脚本语言，在本系统中主要是应用于对浏览器事件作出相应，其Ajax技术是本系统的一个核心技术，Ajax即异步的JavaScript与XML技术，是一套综合了多项技术的浏览器端网页开发技术，通过Ajax技术可以实现在不重复加载网页的基础上对网页上的地图进行动态刷新。
 
+----------
+
 ## 前期工作
 
 ### 百度地图JavaScript API
@@ -53,6 +54,8 @@ tags: Java 前端 Servlet
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=密钥"></script>
 
 这样就算是引用了API了，其中的密钥是需要在[百度地图LBS开放平台](http://lbsyun.baidu.com/apiconsole/key?application=key)申请。
+
+----------
 
 ## 具体实现
 
@@ -214,6 +217,8 @@ function PopulationHeatmap(map, population) {
     }
 }
 ```
+
+这就是结果：
 
 ![](http://i.imgur.com/IQTtoy3.jpg)
 

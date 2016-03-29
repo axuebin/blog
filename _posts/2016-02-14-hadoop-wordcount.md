@@ -11,6 +11,8 @@ tags: Hadoop MapReduce Wordcount
 
 在安装并配置好Hadoop环境之后，需要运行一个实例来验证配置是否正确，Hadoop就提供了一个简单的wordcount程序，其实就是统计单词个数的程序，这个程序可以算是Hadoop中的“Hello World”了。
 
+----------
+
 ## MapReduce
 
 ### 原理	
