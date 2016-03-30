@@ -80,7 +80,9 @@ HttpSession session =request.getSession();
 |getMaxInactiveInterval()|返回 Servlet 容器在客户端访问时保持 session 会话打开的最大时间间隔（单位：秒）。|
 |setMaxInactiveInterval(int)|设置该 session 会话无效之前，指定客户端请求之间的时间。|
 
+----------
 
+## 总结
 
-
+算是吧session的入门知识给搞明白了，还需通过敲代码来深入理解。
 
