@@ -2,8 +2,8 @@
 layout: post
 title:  "Hadoop安装时的配置文件"
 date:   2016-02-13 12:43:54
-categories: Hadoop	
-tags: Hadoop 
+categories: Hadoop
+tags: Hadoop
 ---
 
 * content

@@ -2,8 +2,8 @@
 layout: post
 title:  "Hadoop安装碰到0 datanode(s) running问题"
 date:   2016-02-14 16:43:54
-categories: Hadoop	
-tags: Hadoop 问题
+categories: Hadoop
+tags: Hadoop
 ---
 
 ### 发现问题

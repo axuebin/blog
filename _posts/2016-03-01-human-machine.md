@@ -3,7 +3,6 @@ layout: post
 title:  "人是不是机器？"
 date:   2016-03-01 21:03:00
 categories: Other
-tags: 杂谈
 ---
 
 今天上人工智能课的时候，老师问了一个问题让我们思考。

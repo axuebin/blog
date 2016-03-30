@@ -3,7 +3,7 @@ layout: post
 title:  "Linux常用命令（不全~）"
 date:   2016-01-29 19:12:54
 categories: Linux
-tags: Linux Command	
+tags: Linux
 ---
 
 ## 一些常用的命令

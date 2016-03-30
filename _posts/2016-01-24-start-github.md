@@ -3,7 +3,7 @@ layout: post
 title:  "Github入门"
 date:   2016-01-24 19:43:54
 categories: Github
-tags: Github Git
+tags: Github
 ---
 
 * content

@@ -2,7 +2,7 @@
 layout: post
 title:  "VMware网络模式"
 date:   2016-01-28 23:03:54
-categories: Linux	
+categories: Linux
 ---
 * content
 {:toc}
