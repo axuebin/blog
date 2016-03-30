@@ -2,7 +2,7 @@
 layout: post
 title:  "mysql、tomcat、java安装配置"
 date:   2016-01-06 18:54:00
-categories: 环境变量配置
+categories: Other
 tags: Java Mysql Tomcat
 ---
 * content

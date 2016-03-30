@@ -2,7 +2,7 @@
 layout: post
 title:  "Github + Jekyll 搭建静态博客"
 date:   2016-01-19 14:14:54
-categories: jekyll
+categories: Other
 tags: Jekyll 博客 Github
 ---
 
