@@ -125,7 +125,6 @@ public static String getCookieValue(HttpServletRequest request,String cookieName
 ```java
 public class LongLivedCookie extends Cookie{
 	public static final int SECONDS_PER_YEAR=60*60*24*365;
-	
 	public LongLivesCookie(String name,String value){
 		super(name,value);
 		setMaxAge(SECONDS_PER_YEAR);
@@ -136,8 +135,7 @@ public class LongLivedCookie extends Cookie{
 我们就可以直接用这个类来创建cookie对象：
 
 ```java
-LongLivedCookie newCookie=new LongLivedCookie(
-"name","value");
+LongLivedCookie newCookie=new LongLivedCookie("name","value");
 ```
 
 ----------
