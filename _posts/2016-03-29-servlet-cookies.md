@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cookie学习笔记"
+title:  "Servlet学习笔记（三）---Cookie"
 date:   2016-03-29 09:56:20
 categories: Servlet
 tags: Servlet Cookies
