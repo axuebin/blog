@@ -8,7 +8,7 @@ description: Xuebin's Personal Growth Website
 #   Google search results) and in your feed.xml site description.
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
-#url: "https://axuebin.com" # the base hostname & protocol for your site
+url: "https://axuebin.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  xb9207
 permalink: /:year/:month/:day/:title/
