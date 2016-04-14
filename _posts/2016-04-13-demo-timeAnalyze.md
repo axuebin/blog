@@ -66,27 +66,27 @@ Amaze ~ 妹子 UI，名字不错哈哈哈。
 
 ```html
 <body>
-	<div class="am-container">
-		<h1 style="font-family:'楷体';">标题</h1>
-	</div>
-	<div class="main">
-			<h2>使用须知</h2>
-			<table id="table" class="am-table am-table-bordered ">
-				<thead>
-					<tr>
-						<th>列名1</th>
-						<th>列名2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <button class="am-btn am-btn-primary" style="float:left;">按钮1</button>
-            <button class="am-btn am-btn-primary" style="float:right;">按钮2</button>
-    </div>
+<div class="am-container">
+<h1 style="font-family:'楷体';">标题</h1>
+</div>
+<div class="main">
+<h2>使用须知</h2>
+<table id="table" class="am-table am-table-bordered ">
+<thead>
+<tr>
+<th>列名1</th>
+<th>列名2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</tbody>
+</table>
+<button class="am-btn am-btn-primary" style="float:left;">按钮1</button>
+<button class="am-btn am-btn-primary" style="float:right;">按钮2</button>
+</div>
 </body>
 ```
