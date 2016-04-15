@@ -113,7 +113,6 @@ layout: default
 		<div class="categories-list-header" align="left">
        		标签云
     	</div>  
-  		<ul class="list-unstyled">
 	    <div align="center" class="tags-cloud">
 			{% assign first = site.tags.first %}
                     {% assign max = first[1].size %}
@@ -146,7 +145,7 @@ layout: default
                       <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
                     {% endfor %}
 		</div>
-  	</ul>
+    
 	</div>
   </div>
 </div>
