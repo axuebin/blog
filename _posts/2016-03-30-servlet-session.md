@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Servlet学习笔记（四）---Session"
+title:  "Servlet学习笔记---Session"
 date:   2016-03-30 13:44:20
 categories: Servlet
 tags: Servlet Session

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github入门"
+title:  "轻松入门Github"
 date:   2016-01-24 19:43:54
 categories: Github
 tags: Github

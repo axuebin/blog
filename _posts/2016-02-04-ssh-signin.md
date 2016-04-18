@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "配置ssh免密码登陆"
+title:  "一步一步配置ssh免密码登陆"
 date:   2016-02-04 18:43:54
 categories: Linux
 tags: ssh

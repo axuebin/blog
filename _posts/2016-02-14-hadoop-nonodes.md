@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hadoop安装碰到0 datanode(s) running问题"
+title:  "安装Hadoop时：0 datanode(s) running的解决方法"
 date:   2016-02-14 16:43:54
 categories: Hadoop
 tags: Hadoop

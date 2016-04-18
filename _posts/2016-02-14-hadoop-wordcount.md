@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "我的第一个WordCount程序"
+title:  "Hadoop的“Hello world”---WordCount"
 date:   2016-02-14 17:43:54
 categories: Hadoop
 tags: Hadoop MapReduce Wordcount

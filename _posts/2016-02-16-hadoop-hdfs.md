@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HDFS体系结构"
+title:  "Haddop学习笔记---HDFS体系结构"
 date:   2016-02-16 18:14:54
 categories: Hadoop
 tags: HDFS Hadoop

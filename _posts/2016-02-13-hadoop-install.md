@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hadoop安装时的配置文件"
+title:  "安装Hadoop需要配置的几个文件"
 date:   2016-02-13 12:43:54
 categories: Hadoop
 tags: Hadoop
