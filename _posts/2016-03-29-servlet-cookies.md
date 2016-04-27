@@ -4,14 +4,16 @@ title:  "Servlet学习笔记---Cookies"
 date:   2016-03-29 09:56:20
 categories: Servlet
 tags: Servlet Cookies
+author: 薛彬
 ---
 
 * content
 {:toc}
 
-----------
 
-## 序
+
+
+
 
 今天，我学习了如果制作cookie，对，甜点。
 
@@ -20,8 +22,6 @@ tags: Servlet Cookies
 按照往常一样，我需要记录一下笔记，我们是要做一个奶油曲奇呢还是巧克力曲奇呢？
 
 咳咳，言归正传，我说的cookie可不是吃的。
-
-----------
 
 ## 什么是cookie
 
@@ -42,8 +42,6 @@ tags: Servlet Cookies
 - 服务器向浏览器发送一组cookies。
 - 浏览器将这些cookies存储在用户本地，以备后来使用。
 - 当下次用户登陆同个网站时，浏览器会向服务器发送请求，这时浏览器会先把cookie发送到服务器，服务器就可以根据cookie来判定这个用户是否登陆过。
-
-----------
 
 ## cookie的使用
 
@@ -137,8 +135,6 @@ public class LongLivedCookie extends Cookie{
 ```java
 LongLivedCookie newCookie=new LongLivedCookie("name","value");
 ```
-
-----------
 
 ## 总结
 

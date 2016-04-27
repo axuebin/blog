@@ -4,6 +4,7 @@ title: "MapReduce1和Yarn的工作机制"
 date: 2016-02-23 12:43:00
 categories: Hadoop
 tags: Hadoop MapReduce Yarn
+author: 薛彬
 ---
 
 * content
@@ -14,7 +15,8 @@ Hadoop中的MapReduce的工作机制分为两种：
 - MapReduce 1 也就是Hadoop 2.0之前的工作机制
 - YARN 
 
-----------
+
+
 
 ## MapReduce 1
 
@@ -52,8 +54,6 @@ MapReduce 1最主要的其实就是jobtracker和tasktracker：
 10.  运行map/reduce。
 
 这就是经典的MapReduce的工作原理。
-
-----------
 
 ## YARN
 

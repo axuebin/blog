@@ -4,20 +4,19 @@ title:  "百度Web前端技术学院--三栏式布局"
 date:   2016-03-15 14:12:00
 categories: 前端
 tags: Html Css
+author: 薛彬
 ---
 
 * content
 {:toc}
 
 
-----------
+
 
 ## 任务
 
 - 使用 HTML 与 CSS 按照[示例图（点击查看）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_3_1.png)实现三栏式布局。
 - 左右两栏宽度固定，中间一栏根据父元素宽度填充满，最外面的框应理解为浏览器。背景色为 #eee 区域的高度取决于三个子元素中最高的高度。
-
-----------
 
 ## 左右固定中间自适应布局
 
@@ -77,8 +76,6 @@ html代码：
     .center p{text-indent: 1cm; }
     .center a{text-decoration: none;}
 ```
-
-----------
 
 ## 笔记
 
@@ -186,8 +183,6 @@ p{
 ```
 
 这就是设置了一个5px宽的实线的红色的边框。
-
-----------
 
 ## 参考资料
 

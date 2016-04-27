@@ -4,24 +4,22 @@ title:  "Servlet学习笔记---Session"
 date:   2016-03-30 13:44:20
 categories: Servlet
 tags: Servlet Session
+author: 薛彬
 ---
 
 * content
 {:toc}
 
-----------
 
-## 序
+
+
 
 今天学习了session的有关知识。对于我而言，cookies之前还在清除浏览器记录的时候见过，而session则是一个完全陌生的单词，第一次在计算机中见到。
-
-----------
 
 ## 什么是session
 
 session的中文翻译是“会话”。在Web开发中，session代表的是浏览器与服务器连接的一个过程。
 
-----------
 
 ## 为什么要用session
 
@@ -41,7 +39,6 @@ session的中文翻译是“会话”。在Web开发中，session代表的是浏
 - 隐藏的表单字段：Web服务器可以发送一段隐藏的HTML表单字段。`<Input type="hidden" name="session" value="a123">`。在提交表单时，要将制定的名称和值自动包括在GET或POST数据中。
 - URL重写：客户程序在每个URL的尾部添加一些额外数据。这些数据标识当前的会话，服务器会把该会话标识与已存储的有关会话的数据项关联。
 
-----------
 
 ## session的使用
 
@@ -80,7 +77,6 @@ HttpSession session =request.getSession();
 |getMaxInactiveInterval()|返回 Servlet 容器在客户端访问时保持 session 会话打开的最大时间间隔（单位：秒）。|
 |setMaxInactiveInterval(int)|设置该 session 会话无效之前，指定客户端请求之间的时间。|
 
-----------
 
 ## 总结
 

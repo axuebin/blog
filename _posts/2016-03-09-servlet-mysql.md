@@ -4,6 +4,7 @@ title:  "Servlet学习笔记---连接Mysql"
 date:   2016-03-9 09:43:54
 categories: Servlet
 tags: Servlet Mysql
+author: 薛彬
 ---
 
 * content
@@ -11,7 +12,9 @@ tags: Servlet Mysql
 
 最近帮导师完成的一个项目是在做数据可视化，所以就需要用到servlet连接mysql读取数据。
 
-----------
+
+
+
 
 ## 连接数据库
 
@@ -56,8 +59,6 @@ Connection con = null; Statement statement = null; ResultSet rs = null;
     }
 ```
 
-----------
-
 ## 写servlet
 
 我们都知道servlet中其实就是对doGet()/doPost()方法进行重写，实现所需要的功能。
@@ -74,8 +75,6 @@ public class PopulationQuery extends HttpServlet {
 }
 ```
 
-----------
-
 ## 配置context.xml
 
 需要在这个文件中配置有关数据库的一些参数。
@@ -88,8 +87,6 @@ driverClassName="com.mysql.jdbc.Driver"
 validationQuery='select 1'
 url="jdbc:mysql://localhost:3306/dataminning"/>
 ```
-
-----------
 
 ## 配置web.xml
 

@@ -3,9 +3,14 @@ layout: post
 title:  "VMware网络模式"
 date:   2016-01-28 23:03:54
 categories: Linux
+author: 薛彬
 ---
 * content
 {:toc}
+
+
+
+
 
 
 VMware提供了三种网络模式，分别是：

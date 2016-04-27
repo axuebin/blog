@@ -4,12 +4,15 @@ title:  "时间可视化分析平台"
 date:   2016-04-13 16:20:54
 categories: 个人项目
 tags: Html Css Javascript jQuery
+author: 薛彬
 ---
 
 * content
 {:toc}
 
-## 序
+
+
+
 
 闲着无聊心血来潮做了这个东西，功能还待完善。
 
@@ -28,8 +31,6 @@ tags: Html Css Javascript jQuery
 这是一个基于百度Echarts的可视化界面，其实很简单。
 
 我想要把它做成可以和数据库连接，并且用户可以登陆，然后每天可以将自己的时间录入，可查看每天，每周，每月的时间分布。
-
-----------
 
 ## 都用到啥了~
 

@@ -4,6 +4,7 @@ title:  "轻松入门Github"
 date:   2016-01-24 19:43:54
 categories: Github
 tags: Github
+author: 薛彬
 ---
 
 * content
@@ -15,7 +16,9 @@ tags: Github
 现在我也还处于Github入门阶段吧，只会一些常用的指令和操作，怕忘了就记录一下。
 参考了《GitHub入门与实践》和《[Github漫游指南](http://github.phodal.com/)》。
 
-----------
+
+
+
 
 ## 安装Git
 
@@ -57,7 +60,6 @@ Enter same passphrase again
 
 到这我们的Git环境就算是搭建好了。
 
-----------
 
 ## 基本操作
  
@@ -108,7 +110,6 @@ $git init
 	$git pull
 
 
-----------
 先写到这吧，我也只用到这么多功能了。。。
 
 

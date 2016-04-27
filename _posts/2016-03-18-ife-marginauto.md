@@ -4,20 +4,19 @@ title:  "百度Web前端技术学院--水平垂直居中"
 date:   2016-03-18 20:12:00
 categories: 前端
 tags: Html Css
+author: 薛彬
 ---
 
 * content
 {:toc}
 
 
-----------
+
 
 ## 任务
 
 - 实现如[示例图（点击查看）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_4_1.png)的效果。
 - 灰色元素水平垂直居中，有两个四分之一圆位于其左上角和右下角。
-
-----------
 
 ## 实现
 
@@ -59,8 +58,6 @@ css代码：
         right:-50px;
     }
 ```
-
-----------
 
 ## 水平垂直居中的实现
 
@@ -106,8 +103,6 @@ css代码：
 
 [小tip: margin:auto实现绝对定位元素的水平垂直居中](http://www.zhangxinxu.com/wordpress/2013/11/margin-auto-absolute-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D-%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/)
 
-----------
-
 ## 笔记
 
 #### `position`
@@ -152,8 +147,6 @@ position是决定了元素将如何定位的属性。
 	border-bottom-right-radius:50px;
 	border-bottom-left-radius:50px;
 ```
-
-----------
 
 ## 参考资料
 

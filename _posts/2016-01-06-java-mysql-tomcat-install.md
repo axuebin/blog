@@ -4,9 +4,14 @@ title:  "mysql、tomcat、java安装配置"
 date:   2016-01-06 18:54:00
 categories: Other
 tags: Java Mysql Tomcat
+author: 薛彬
 ---
 * content
 {:toc}
+
+
+
+
 
 ## java 
 
@@ -22,8 +27,6 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 ### 测试
 cmd中输入java -version , java , javac 等命令
-
--------------------
 
 ## Tomcat
 
@@ -43,8 +46,6 @@ https://tomcat.apache.org/download-80.cgi
 
 	<role rolename="admin-gui"/>
 	<user password="123456aaa" roles="admin-gui,manager-script,admin" username="xb"/>
-
--------------------
 
 ## Mysql
 

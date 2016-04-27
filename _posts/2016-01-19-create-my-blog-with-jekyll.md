@@ -4,17 +4,18 @@ title:  "Github + Jekyll 搭建静态博客"
 date:   2016-01-19 14:14:54
 categories: Other
 tags: Jekyll 博客 Github
+author: 薛彬
 ---
 
 * content
 {:toc}
 
 
-## 序
-
 试着用github搭一个博客
 
-----------
+
+
+
 
 ## 搭建过程
 

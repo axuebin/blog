@@ -4,6 +4,7 @@ title:  "Hadoop的“Hello world”---WordCount"
 date:   2016-02-14 17:43:54
 categories: Hadoop
 tags: Hadoop MapReduce Wordcount
+author: 薛彬
 ---
 
 * content
@@ -11,7 +12,9 @@ tags: Hadoop MapReduce Wordcount
 
 在安装并配置好Hadoop环境之后，需要运行一个实例来验证配置是否正确，Hadoop就提供了一个简单的wordcount程序，其实就是统计单词个数的程序，这个程序可以算是Hadoop中的“Hello World”了。
 
-----------
+
+
+
 
 ## MapReduce
 
@@ -22,8 +25,6 @@ MapReduce其实就是采用分而治之的思想，将大规模的数据分成�
 ### 过程
 
 MapReduce可以分成两个阶段，其实就是单词拆成map和reduce，这其实是两个函数。map函数会产生一个中间输出，然后reduce函数接受多个map函数产生的一系列中间输出然后再产生一个最终输出。
-
-----------
 
 ## WordCount展示
 
@@ -97,8 +98,6 @@ output文件夹中现在有两个文件，我们需要的结果在`part-r-00000`
 我们就可以看到最终的wordcount结果了：
 
 ![](http://i.imgur.com/oqLlB3c.png)
-
-----------
 
 ## WordCount源码分析
 

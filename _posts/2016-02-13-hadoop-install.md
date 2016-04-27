@@ -4,6 +4,7 @@ title:  "安装Hadoop需要配置的几个文件"
 date:   2016-02-13 12:43:54
 categories: Hadoop
 tags: Hadoop
+author: 薛彬
 ---
 
 * content
@@ -12,7 +13,9 @@ tags: Hadoop
 
 记录安装hadoop时需要配置的几个文件。
 
-----------
+
+
+
 
 ## 配置master上的
 
@@ -149,13 +152,9 @@ tags: Hadoop
        </property>
 	</configuration>
 
-----------
-
 ## 将master的配置文件复制到其他节点
 
 	sudo scp -r /usr/hadoop/hadoop-2.6.2 hadoop@slave1:~/
-	
-----------
 
 ## 启动hadoop
 	

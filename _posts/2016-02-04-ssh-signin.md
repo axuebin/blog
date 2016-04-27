@@ -4,7 +4,13 @@ title:  "一步一步配置ssh免密码登陆"
 date:   2016-02-04 18:43:54
 categories: Linux
 tags: ssh
+author: 薛彬
 ---
+
+记录一下再配置Hadoop中遇到的SSH的原理和配置方法。
+
+
+
 
 ### ssh免密码登陆的原理
 

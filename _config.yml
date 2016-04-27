@@ -1,28 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: 薛彬的博客
-email: xbmail2013@163.com
-description: Xuebin's Personal Growth Website
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+brief-intro: Xue bin's Personal Growth Website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://axuebin.com/blog/" # the base hostname & protocol for your site
 
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-#url: "http://axuebin.com/blog/" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  xb9207
 permalink: /:year/:month/:day/:title/
+
+# other links
+github_username:  xb9207
+email: xb@axuebin.com
+weibo_username: 201251025
+
+description_footer: 本站记录我这个小小程序猿的成长历程...
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: gaohaoyang
 
 # Build settings
 markdown: kramdown
 
-paginate: 10
-paginate_path: "page:num"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-highlighter: rouge
+# port
+# port: 1234
 
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 8

@@ -4,12 +4,17 @@ title:  "Servlet学习笔记---Servlet生命周期"
 date:   2016-01-24 19:12:54
 categories: Servlet
 tags: Servlet
+author: 薛彬
 ---
 * content
 {:toc}
 
 
 这是在学习Servlet的生命周期后留下的笔记，都说理解好生命周期就是理解Servlet的关键，记下来以备不时之需。
+
+
+
+
 
 ### 过程
 - 调用init()方法进行初始化。

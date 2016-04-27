@@ -4,6 +4,7 @@ title:  "使用Echarts图表展示数据--时间比例分析"
 date:   2016-02-18 19:14:54
 categories: 前端
 tags: 可视化 Javascript
+author: 薛彬
 ---
 
 * content
@@ -11,7 +12,9 @@ tags: 可视化 Javascript
 
 从2月1号开始到今天这快20天的时间，每天粗略的记录了一下每个行为的时间，也就有了一份小数据，我用Echarts图表来将这些数据可视化展示出来。
 
-----------
+
+
+
 
 ## 关于Echarts
 

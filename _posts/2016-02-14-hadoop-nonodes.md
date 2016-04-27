@@ -4,7 +4,15 @@ title:  "安装Hadoop时：0 datanode(s) running的解决方法"
 date:   2016-02-14 16:43:54
 categories: Hadoop
 tags: Hadoop
+author: 薛彬
 ---
+
+* content
+{:toc}
+
+
+
+
 
 ### 发现问题
 
