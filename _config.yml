@@ -9,7 +9,7 @@
 title: 薛彬的博客
 brief-intro: Xue bin's Personal Growth Website
 baseurl: "blog/" # the subpath of your site, e.g. /blog
-url: "http://axuebin.com/" # the base hostname & protocol for your site
+#url: "http://axuebin.com/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
