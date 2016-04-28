@@ -46,3 +46,11 @@ icon: heart
 
 [ Gaohaoyang ](http://gaohaoyang.github.io/) \| 
 
+
+### Comments
+
+{% if site.duoshuo_shortname %}
+<!-- 多说评论框 start -->
+<div class="ds-thread" data-thread-key="{{ site.url }}{{ page.url }}" data-title="{{page.title}}" data-url="{{ site.url }}{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+{% endif %}
