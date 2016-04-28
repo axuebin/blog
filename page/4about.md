@@ -47,7 +47,7 @@ icon: heart
 [ Gaohaoyang ](http://gaohaoyang.github.io/) \| 
 
 
-### Comments
+### 留言
 
 {% if site.duoshuo_shortname %}
 <!-- 多说评论框 start -->

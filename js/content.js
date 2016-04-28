@@ -43,7 +43,7 @@ function fixSidebar() {
     var sidebarWrap = document.querySelector('.sidebar-wrap')
     window.onscroll = function() {
         var sidebarWrapTop = sidebarWrap.getBoundingClientRect().top
-        if (sidebarWrapTop < 21) {
+        if (sidebarWrapTop < 100) {
             sidebarWrap.classList.add('fixed')
         }
         var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop)
