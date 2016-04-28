@@ -1,6 +1,7 @@
 body {
 	background-image: url(http://www.51pptmoban.com/d/file/2014/05/13/5124ee28759d3dcb61d04179ac509568.jpg);
-    font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
+    background-attachment: fixed;
+	font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
 }
 /**设置滚动条的样式**/
 ::-webkit-scrollbar {
