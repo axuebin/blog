@@ -25,7 +25,7 @@ icon: heart
 
 * WebSite：[axuebin.com](http://axuebin.com)
 * Github：[Xuebin](http://github.com/xb9207)
-* Email： [xbmail2013@163.com](mailto:{{ site.email }})
+* Email： [xb@axuebin.com](mailto:{{ site.email }})
 * QQ：472749800
 * Weibo：[Xuebin](http://weibo.com/1743042963/)
 
@@ -42,10 +42,9 @@ icon: heart
  
 ---
 
-#### 友情链接
+### 大神们
 
-[ Gaohaoyang ](http://gaohaoyang.github.io/) \| 
-
+[ Gaohaoyang ](http://gaohaoyang.github.io/) | [ Phodal ](https://www.phodal.com/)|[ Sundway ](http://sundway.me/)| [ 羡辙杂俎 ](http://zhangwenli.com/blog/)
 
 ### 留言
 
