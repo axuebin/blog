@@ -9,13 +9,13 @@ icon: heart
 
 ### 我是...
 
-> 一个正在摸爬滚打的菜鸟程序猿，希望成为一名软件开发者。
+> 一个正在摸爬滚打的野生程序猿, 有着强烈的学习欲望。
 
 普通高校在读研究生，2018年毕业  
 
-本科偏向硬件方面，比较喜欢有反馈性的工作，所以本科期间主要是单片机开发和应用。
+本科学的是电子信息工程专业，有点虚度光阴了，除了拿了几个奖似乎没什么收获...因心底一直想学习编程相关的，研究生就选择了计算机应用技术专业，从零开始学习计算机。
 
-后因心底始终有一个从事软件开发的梦想，决定以后当一名程序猿...如今的状态还未入门吧...
+嗯，现在暂时是那种不懂数据结构、操作系统以及算法的野生程序猿，我会努力弥补这些不足...
 
 喜欢看书和实践，喜欢旅游和运动。
 
@@ -23,11 +23,12 @@ icon: heart
 
 ### 联系我
 
-* WebSite：[axuebin.com](http://axuebin.com)
-* Github：[Xuebin](http://github.com/xb9207)
+![](http://i.imgur.com/tAmc0tc.jpg)
+
+* WebSite：[http://axuebin.com](http://axuebin.com)
+* Github：[薛彬](http://github.com/xb9207)
 * Email： [xb@axuebin.com](mailto:{{ site.email }})
 * QQ：472749800
-* Weibo：[Xuebin](http://weibo.com/1743042963/)
 
 ---
 
@@ -38,7 +39,7 @@ icon: heart
 2016.2.25 | 绑定个人域名啦~加入百度、谷歌等搜索引擎。
 2016.2.19 | 添加文章归档、个人书单页。
 2016.2.13 | 根据jekyll3修改高亮效果，添加Google Analyze功能。
-2016.1          |  尝试用jekyll + github 搭建一个博客，使用[ Gaohaoyang ](http://gaohaoyang.github.io/) 的模板，准备有时间慢慢修改。
+2016.1 | 尝试用jekyll + github 搭建一个博客，使用[ Gaohaoyang ](http://gaohaoyang.github.io/) 的模板，准备有时间慢慢修改。
  
 ---
 
