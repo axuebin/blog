@@ -3,7 +3,7 @@ layout: post
 title:  "使用Echarts图表展示数据--时间比例分析"
 date:   2016-02-18 19:14:54
 categories: 前端
-tags: 可视化 Javascript
+tags: 可视化 Javascript 前端
 author: 薛彬
 ---
 

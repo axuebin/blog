@@ -2,8 +2,8 @@
 layout: post
 title:  "一个图片轮播插件---Nivo Slider"
 date:   2016-04-10 19:33:54
-categories: 前端
-tags: jQuery
+categories: 前端 
+tags: jQuery 前端 Javascript
 author: 薛彬
 ---
 

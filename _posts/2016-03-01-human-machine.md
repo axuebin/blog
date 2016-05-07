@@ -3,6 +3,7 @@ layout: post
 title:  "人是不是机器？"
 date:   2016-03-01 21:03:00
 categories: Other
+tags: 杂谈
 author: 薛彬
 ---
 
