@@ -2,7 +2,7 @@
 layout: post
 title:  "Servlet学习笔记---Cookies"
 date:   2016-03-29 09:56:20
-categories: Java Web
+categories: JavaWeb
 tags: Servlet Cookies
 author: 薛彬
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Servlet学习笔记---Servlet生命周期"
 date:   2016-01-24 19:12:54
-categories: Java Web
+categories: JavaWeb
 tags: Servlet
 author: 薛彬
 ---

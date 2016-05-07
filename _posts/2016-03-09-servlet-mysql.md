@@ -2,7 +2,7 @@
 layout: post
 title:  "Servlet学习笔记---连接Mysql"
 date:   2016-03-9 09:43:54
-categories: Java Web
+categories: JavaWeb
 tags: Servlet Mysql
 author: 薛彬
 ---
