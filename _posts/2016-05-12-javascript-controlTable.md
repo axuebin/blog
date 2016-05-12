@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "js动态增删表格的行"
+title:  "javascript动态增删表格的行"
 date:   2016-05-12 19:13:54
 categories: 前端 
 tags: jQuery 前端 Javascript
