@@ -21,6 +21,9 @@
             <a href="http://weibo.com/{{site.weibo_username}}"><i class="fa fa-weibo" aria-hidden="true"></i></a>
             {% endif %}
         </p>
+        <p>
+            本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+        </p>
         <p class="power">
             <span>
                 Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
@@ -33,6 +36,8 @@
   </div>
 </footer>
 <script src="{{ "/js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 {% if site.duoshuo_shortname %}
 <!-- 多说评论框 start -->
