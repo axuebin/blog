@@ -2,8 +2,7 @@
 layout: post
 title:  "The first day in Beijing"
 date:   2016-05-16 19:23:00
-categories: Other
-tags: 杂谈
+categories: 杂谈
 author: 薛彬
 ---
 

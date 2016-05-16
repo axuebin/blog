@@ -2,7 +2,7 @@
 layout: post
 title:  "mysql、tomcat、java安装配置"
 date:   2016-01-06 18:54:00
-categories: Other
+categories: JavaWeb
 tags: Java Mysql Tomcat
 author: 薛彬
 ---

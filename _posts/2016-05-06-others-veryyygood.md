@@ -2,8 +2,7 @@
 layout: post
 title:  "最后一场考试，搞定！"
 date:   2016-05-06 12:03:00
-categories: Other
-tags: 杂谈
+categories: 杂谈
 author: 薛彬
 ---
 
