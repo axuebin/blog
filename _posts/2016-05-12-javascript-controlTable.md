@@ -3,7 +3,7 @@ layout: post
 title:  "Javascript动态增删表格的行"
 date:   2016-05-12 19:13:54
 categories: 前端 
-tags: jQuery 前端 Javascript
+tags: jQuery Javascript
 author: 薛彬
 ---
 

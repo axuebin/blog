@@ -3,7 +3,7 @@ layout: post
 title:  "Servlet学习笔记---Session"
 date:   2016-03-30 13:44:20
 categories: JavaWeb
-tags: Servlet Session
+tags: Servlet
 author: 薛彬
 ---
 

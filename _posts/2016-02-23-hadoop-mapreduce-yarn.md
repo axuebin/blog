@@ -3,7 +3,7 @@ layout: post
 title: "MapReduce1和Yarn的工作机制"
 date: 2016-02-23 12:43:00
 categories: Hadoop
-tags: Hadoop MapReduce Yarn
+tags: Hadoop MapReduce
 author: 薛彬
 ---
 

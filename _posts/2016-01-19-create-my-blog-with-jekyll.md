@@ -3,7 +3,7 @@ layout: post
 title:  "Github + Jekyll 搭建静态博客"
 date:   2016-01-19 14:14:54
 categories: 前端
-tags: Jekyll 博客 Github
+tags: Jekyll Github
 author: 薛彬
 ---
 

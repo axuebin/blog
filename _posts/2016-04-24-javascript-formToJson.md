@@ -3,7 +3,7 @@ layout: post
 title:  "jQuery将表单序列化为Json对象（转载）"
 date:   2016-04-24 20:10:34
 categories: 转载 
-tags: jQuery 前端 Javascript
+tags: jQuery Javascript
 author: 薛彬
 ---
 

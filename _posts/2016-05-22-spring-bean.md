@@ -3,7 +3,7 @@ layout: post
 title:  "Spring学习笔记---Bean"
 date:   2016-05-22 20:34:00
 categories: JavaWeb
-tags: Spring Bean
+tags: Spring
 author: 薛彬
 ---
 
