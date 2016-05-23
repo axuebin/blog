@@ -11,6 +11,9 @@ author: 薛彬
 {:toc}
 
 
+
+
+
 ## 定义
 
 bean 是一个被实例化，组装，并通过 Spring IoC 容器所管理的对象。
