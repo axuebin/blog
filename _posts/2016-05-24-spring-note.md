@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spring学习笔记---其它笔记"
+title:  "Spring学习笔记---其它"
 date:   2016-05-24 16:39:00
 categories: JavaWeb
 tags: Spring
