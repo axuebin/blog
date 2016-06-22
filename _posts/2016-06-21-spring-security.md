@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spring学习笔记---Spring Security登录页面"
+title:  "Spring学习笔记---Spring Security登录页"
 date:   2016-06-21 14:19:00
 categories: JavaWeb
 tags: Spring
