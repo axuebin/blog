@@ -22,7 +22,7 @@ author: 薛彬
 
 首先需要在Spring的配置文件中弄个添加Spring Security命名空间，考虑到可能会有很多不同的配置文件，我们将Spring Security的配置文件单独建立一个XML文件---`applicationContext-security.xml`，并在`applicationContext.xml`中加入如下语句:
 
-```
+```xml
 <import resource="classpath:applicationContext-security.xml"/>
 ```
 
@@ -30,7 +30,7 @@ author: 薛彬
 
 **applicationContext-security.xml**
 
-```
+```xml
 <beans:beans xmlns="http://www.springframework.org/schema/security"
 	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -46,7 +46,7 @@ author: 薛彬
 
 **web.xml**
 
-```
+```xml
 <filter>
     <filter-name>springSecurityFilterChain</filter-name>
     <filter-class>
@@ -71,7 +71,7 @@ author: 薛彬
 
 我们只需要一个简单的jsp页面，就像这样：
 
-```jsp
+```html
 <%@ page contentType="text/html; charset=UTF-8" language="java"%>
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags"%>
 <html>
@@ -99,7 +99,7 @@ author: 薛彬
 
 在`applicationContext-security.xml`中，需要这样配置：
 
-```
+```xml
 <http auto-config="true" use-expressions="true">
     <headers>
         <frame-options policy="SAMEORIGIN" />
