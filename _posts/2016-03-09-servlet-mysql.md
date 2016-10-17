@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "Servlet学习笔记---连接Mysql"
+title:  "Servlet学习笔记---连接MySql"
 date:   2016-03-9 09:43:54
 categories: JavaWeb
-tags: Servlet Mysql
+tags: Servlet MySql
 author: 薛彬
 ---
 
 * content
 {:toc}
 
-最近帮导师完成的一个项目是在做数据可视化，所以就需要用到servlet连接mysql读取数据。
-
+最近帮导师完成的一个项目是在做数据可视化，所以就需要用到servlet连接MySql读取数据。
 
 
 

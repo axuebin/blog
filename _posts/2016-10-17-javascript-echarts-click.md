@@ -3,6 +3,7 @@ layout: post
 title:  "Echarts3.x中click,datazoom,timeline事件的解决方法"
 date:   2016-10-17 10:31:00
 categories: 前端
+tags: JavaScript Echarts
 author: 薛彬
 ---
 

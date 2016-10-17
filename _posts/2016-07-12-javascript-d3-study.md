@@ -3,7 +3,7 @@ layout: post
 title:  "D3笔记"
 date:   2016-07-12 15:12:00
 categories: 前端
-tags: D3 Javascript
+tags: D3 JavaScript
 author: 薛彬
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "大数据可视化平台（前后端）"
 date:   2016-03-19 19:14:54
 categories: 个人项目
-tags: Java Servlet Mysql
+tags: Java Servlet MySql
 author: 薛彬
 ---
 

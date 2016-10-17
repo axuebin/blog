@@ -3,7 +3,7 @@ layout: post
 title:  "一个图片轮播插件---Nivo Slider"
 date:   2016-04-10 19:33:54
 categories: 前端 
-tags: jQuery Javascript
+tags: jQuery JavaScript
 author: 薛彬
 ---
 

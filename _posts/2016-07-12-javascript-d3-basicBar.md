@@ -3,7 +3,7 @@ layout: post
 title:  "D3.js实现最简单柱状图的例子"
 date:   2016-07-12 16:58:00
 categories: 前端
-tags: D3 Javascript
+tags: D3 JavaScript
 author: 薛彬
 ---
 

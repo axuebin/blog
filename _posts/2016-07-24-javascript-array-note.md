@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Javascript数组笔记"
+title:  "JavaScriptt数组笔记"
 date:   2016-07-24 09:07:00
 categories: 前端
-tags: Javascript
+tags: JavaScript
 author: 薛彬
 ---
 

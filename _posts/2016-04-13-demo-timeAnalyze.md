@@ -3,7 +3,7 @@ layout: post
 title:  "时间可视化分析平台"
 date:   2016-04-13 16:20:54
 categories: 个人项目
-tags: Html Css Javascript jQuery
+tags: Html Css JavaScript jQuery
 author: 薛彬
 ---
 
