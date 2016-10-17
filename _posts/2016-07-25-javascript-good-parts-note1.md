@@ -230,3 +230,11 @@ Function.prototype.method=function(name,func){
     return this;
 }
 ```
+
+### 作用域
+
+- JavaScript不支持块级作用域。
+- JavaScript有函数作用域，定义在函数中的参数和变量在函数外部是不可见的，而在函数内部任何位置都可见。
+- 建议：在函数体的顶部声明函数中可能用到的所有变量。
+
+### 
