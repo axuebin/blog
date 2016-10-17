@@ -9,11 +9,11 @@ author: 薛彬
 * content
 {:toc}
 
-Echarts官网中是这样说的：
-
-> 在 ECharts 的图表中用户的操作将会触发相应的事件。开发者可以监听这些事件，然后通过回调函数做相应的处理，比如跳转到一个地址，或者弹出对话框，或者做数据下钻等等。
-
 在Echarts3中绑定事件是通过`on`方法，事件名称对应DOM事件名称，为小写的字符串。比如点击事件为：
+
+
+
+
 
 ```javascript
 myChart.on('click', function (params) {
