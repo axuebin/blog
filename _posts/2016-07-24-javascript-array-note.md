@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScriptt数组笔记"
+title:  "JavaScript数组笔记"
 date:   2016-07-24 09:07:00
 categories: 前端
 tags: JavaScript
