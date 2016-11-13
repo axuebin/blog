@@ -166,6 +166,44 @@ function unique(arr) {
 }
 ```
 
+### 更高效的unique函数
+
+```javascript
+function unique(ary) {
+  var i=0,l=ary.length,
+      type,p,ret=[],
+      guid=(Math.random()*1E18).toString(32)+(+new Date).toString(32),
+      objects=[],
+      reg={ //Primitive类型值Register
+          'string': {},
+          'boolean': {},
+          'number': {}
+      };
+  for (;i<l;i++) {
+    p = ary[i];
+    if (p==null) continue;
+    type = typeof p;
+    if (reg[type]) {//PrimitiveType
+      if (!reg[type].hasOwnProperty(p)) {
+        reg[type][p] = 1;
+        ret.push(p);
+      }
+    } else {//RefType
+      if (p[guid]) continue;
+      p[guid]=1;
+      objects.push(p);
+      ret.push(p);
+    }
+  }
+  i=objects.length;
+  while (i--) {//再将对象上的guid清理掉
+    p=objects[i];
+    delete p[guid];
+  }
+  return ret;
+}
+```
+
 ## CSVToObject
 
 有的时候不需要用到数组，只要直接将对象数组丢进去就可以了，比如百度地图热力图。
