@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RCurl并行发送多个请求导致内存增长的解决方法"
-date:   2016-02-22 14:14:54
+date:   2017-02-22 14:14:54
 categories: 其它
 tags: R 并行请求 内存管理
 author: 薛彬
