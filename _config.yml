@@ -14,7 +14,7 @@ baseurl: "/blog" #the subpath of your site, e.g. /blog
 permalink: /:year/:month/:day/:title/
 
 # other links
-github_username:  xb9207
+github_username:  axuebin
 email: xb@axuebin.com
 weibo_username: 201251025
 
