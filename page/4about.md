@@ -26,7 +26,7 @@ icon: heart
 ![](http://i.imgur.com/tAmc0tc.jpg)
 
 * WebSite：[http://axuebin.com](http://axuebin.com)
-* Github：[薛彬](http://github.com/xb9207)
+* Github：[薛彬](http://github.com/axuebin)
 * Email： [xb@axuebin.com](mailto:{{ site.email }})
 * QQ：472749800
 
