@@ -20,16 +20,16 @@ author: 薛彬
 
 ```
 <servlet-mapping>
-	<servlet-name>default</servlet-name>
-	<url-pattern>*.gif</url-pattern>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.gif</url-pattern>
 </servlet-mapping>
 <servlet-mapping>
-	<servlet-name>default</servlet-name>
-	<url-pattern>*.jpg</url-pattern>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.jpg</url-pattern>
 </servlet-mapping>
 <servlet-mapping>
-	<servlet-name>default</servlet-name>
-	<url-pattern>*.png</url-pattern>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.png</url-pattern>
 </servlet-mapping>
 ```
 
@@ -37,8 +37,8 @@ author: 薛彬
 
 ```
 <servlet-mapping>
-	<servlet-name>springmvc-dispatcher</servlet-name>
-	<url-pattern>/</url-pattern>
+    <servlet-name>springmvc-dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
 </servlet-mapping>
 ```
 

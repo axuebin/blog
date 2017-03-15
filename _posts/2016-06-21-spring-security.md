@@ -81,16 +81,16 @@ author: 薛彬
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-	<div class="container">
-		<div class="login">
-			<h1>用户登录</h1>
-			<form method="POST" action="j_spring_security_check">
-				<p><input type="text" name="j_username" value="" placeholder="请输入用户名"></p>
-				<p><input type="password" name="j_password" placeholder="请输入密码"></p>
-				<p><input class="btn btn-default" name="sumbit" type="submit" value="登陆"></p>
-			</form>
-		</div>
-	</div>
+    <div class="container">
+        <div class="login">
+            <h1>用户登录</h1>
+            <form method="POST" action="j_spring_security_check">
+                <p><input type="text" name="j_username" value="" placeholder="请输入用户名"></p>
+                <p><input type="password" name="j_password" placeholder="请输入密码"></p>
+                <p><input class="btn btn-default" name="sumbit" type="submit" value="登陆"></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 ```

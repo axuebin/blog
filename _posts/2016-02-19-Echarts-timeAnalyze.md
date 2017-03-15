@@ -28,9 +28,9 @@ ECharts，一个纯 Javascript 的图表库，可以流畅的运行在 PC 和移
 
 ```html
 <div class="charts" id="chart1" style="width:30%;float:left;margin-right:0;padding-right:0;border-right-width:0">
-	<script>
-		display_timeAnalyze();
-	</script>
+    <script>
+        display_timeAnalyze();
+    </script>
 </div>
 ```
 

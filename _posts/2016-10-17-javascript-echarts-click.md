@@ -89,5 +89,3 @@ function fun(date){
 
 
 
-## 语法
-

@@ -19,35 +19,35 @@ author: 薛彬
 
 ```json
 {
-	"顶层菜单1":[
-		{
-			"domain":"顶层菜单1",
-			"runType":"background",
-			"moduleName":"子菜单",
-			"memo":"描述",
-			"srcFile":"",
-			"depends":[]
-		}
-	],
-	"顶层菜单2":[
-		{
-			"domain":"顶层菜单2",
-			"runType":"background",
-			"moduleName":"子菜单1",
-			"memo":"描述",
-			"srcFile":"",
-			"depends":[]
-		},
-		{
-			"domain":"顶层菜单2",
-			"runType":"background",
-			"moduleName":"子菜单2",
-			"memo":"描述",
-			"srcFile":"",
-			"depends":[]
-		}
-	],
-	"顶层菜单3":[]
+    "顶层菜单1":[
+        {
+            "domain":"顶层菜单1",
+            "runType":"background",
+            "moduleName":"子菜单",
+            "memo":"描述",
+            "srcFile":"",
+            "depends":[]
+        }
+    ],
+    "顶层菜单2":[
+        {
+            "domain":"顶层菜单2",
+            "runType":"background",
+            "moduleName":"子菜单1",
+            "memo":"描述",
+            "srcFile":"",
+            "depends":[]
+        },
+        {
+            "domain":"顶层菜单2",
+            "runType":"background",
+            "moduleName":"子菜单2",
+            "memo":"描述",
+            "srcFile":"",
+            "depends":[]
+        }
+    ],
+    "顶层菜单3":[]
 }
 ```
 

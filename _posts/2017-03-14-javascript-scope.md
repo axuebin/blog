@@ -25,11 +25,11 @@ author: 薛彬
 var globalName="axuebin";
 console.log(globalName);//axuebin
 function getName(){
-	console.log(globalName);//axuebin
-	var name="xb";
-	age=25;
-	console.log(name);//xb
-	console.log(age);//25
+    console.log(globalName);//axuebin
+    var name="xb";
+    age=25;
+    console.log(name);//xb
+    console.log(age);//25
 }
 getName();
 console.log(name);//undefined
@@ -46,7 +46,7 @@ JavaScript没有块级作用域。
 
 ```javascript
 if(true){
-	var name="axuebin";
+    var name="axuebin";
 }
 console.log(axuebin);
 ```
@@ -64,12 +64,12 @@ console.log(axuebin);
 ```javascript
 var firstName="axuebin";
 function getSecondName(){
-	var secondName="xuebin";
-	function getThirdName(){
-		var thirdName="xb";	
-		console.log(firstName);	
-	} 
-	getThirdName();
+    var secondName="xuebin";
+    function getThirdName(){
+        var thirdName="xb";	
+        console.log(firstName);	
+    } 
+    getThirdName();
 }
 getSecondName();
 ```

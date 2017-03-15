@@ -26,9 +26,9 @@ author: 薛彬
 
 ```javascript
 $(document).mousedown(function(e){
-  if($(e.target).parent("#info").length==0){
-    $("#info").hide();
-  }
+    if($(e.target).parent("#info").length==0){
+        $("#info").hide();
+    }
 })
 ```
 

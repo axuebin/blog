@@ -32,7 +32,7 @@ bean的属性：
 
 ```xml
 <bean id="helloWorld" class="com.tutorialspoint.HelloWorld">
-	<property name="message" value="Hello World!"/>
+    <property name="message" value="Hello World!"/>
 </bean>
 ```
 
@@ -58,12 +58,12 @@ bean的属性：
 
 ```java
 public class Person{
-	private String name;
+    private String name;
     public void setName(String name){
-		this.name=name;
+        this.name=name;
     }
     public void getName(){
-    	System.out.println("名字是："+ name);
+        System.out.println("名字是："+ name);
     }
 }
 ```

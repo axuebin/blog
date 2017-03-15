@@ -30,7 +30,7 @@ author: 薛彬
 
 ```java
 public coid init() throws ServletException{
-	//初始化代码
+    //初始化代码
 } 
 ```
 

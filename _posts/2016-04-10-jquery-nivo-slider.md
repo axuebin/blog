@@ -68,11 +68,11 @@ js文件可以在[https://github.com/gilbitron/Nivo-Slider](https://github.com/g
 
 ```html
 <script type="text/javascript">
-	$(window).load(function () {
-		for (i = 1; i < n; i++) {
-			 $("#slider").append("<img src='../images/" + i + ".jpg' title='" + i + "' alt=''/>")
-		}
-	});
+    $(window).load(function () {
+        for (i = 1; i < n; i++) {
+            $("#slider").append("<img src='../images/" + i + ".jpg' title='" + i + "' alt=''/>")
+        }
+    });
 </script>
 ```
 
@@ -84,12 +84,12 @@ js文件可以在[https://github.com/gilbitron/Nivo-Slider](https://github.com/g
 
 ```html
 <script type="text/javascript">
-	$('#slider').nivoSlider({
-		animSpeed: 100,          //图片过渡时间   
-		pauseTime: 2000,         //图片显示时间
-		pauseOnHover: false,
-		manualAdvance: false,
-	});
+    $('#slider').nivoSlider({
+        animSpeed: 100,          //图片过渡时间   
+        pauseTime: 2000,         //图片显示时间
+        pauseOnHover: false,
+        manualAdvance: false,
+    });
 </script>
 ```
 

@@ -22,7 +22,7 @@ author: 薛彬
 
 ```javascript
 function functionName(arg0,arg1...argN){
-	statements
+    statements
 }
 ```
 
@@ -30,7 +30,7 @@ function functionName(arg0,arg1...argN){
 
 ```javascript
 function sum(num1,num2){
-	return num1+num2;
+    return num1+num2;
 }
 var sumResult=sum(1,2);
 console.log(sumResult);//3
@@ -71,12 +71,12 @@ console.log(sumResult);//3
 ```javascript
 getName();//axuebin
 function getName(){
-	var name="axuebin";	
-	console.log(name);
+    var name="axuebin";	
+    console.log(name);
 }
 sum(1,2);//sum is not a function
 var sum=function(num1,num2){
-	return num1+num2;
+    return num1+num2;
 }
 ```
 
@@ -107,8 +107,8 @@ JavaScript中函数的参数有实参和形参的区别，函数不介意传递�
 
 ```javascript
 function getInfo(name,age){
-	console.log(name+":"+age+"岁");
-	console.log(arguments[0]+":"+arguments[1]+"岁"+","+arguments[2]);
+    console.log(name+":"+age+"岁");
+    console.log(arguments[0]+":"+arguments[1]+"岁"+","+arguments[2]);
 }
 getInfo("axuebin","25","student");
 ```
@@ -121,11 +121,11 @@ ES6引入了rest参数，形式为`...变量名`，用于获取函数的多余�
 
 ```javascript
 function sum(...numbers){
-	let sum=0;
-	for(var val of values){
+    let sum=0;
+    for(var val of values){
 		sum+=val;
-	}
-	return sum;
+    }
+    return sum;
 }
 sum(1,2,3);//6
 sum(1,2,3,4);//10

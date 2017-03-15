@@ -39,10 +39,10 @@ author: 薛彬
 
 ```java
 Class FriendlyTest{
-  public static void main(String args[]){
-    A a=new A();
-    a.f();
-  }
+    public static void main(String args[]){
+        A a=new A();
+        a.f();
+    }
 }
 ```
 
@@ -50,9 +50,9 @@ Class FriendlyTest{
 
 ```java
 Class A{
-  int a;
-  void f(){
-  }
+    int a;
+    void f(){
+    }
 }
 ```
 

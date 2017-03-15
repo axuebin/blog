@@ -28,45 +28,45 @@ author: 薛彬
 ```html
 <!DOCTYPE html>
 <html lang="zh-CN">
-	<head> 
-		<meta charset="utf-8"> 
-		<title>HelloWorld</title> 
-		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> 
-	</head> 
-	<body> 
-		<p>Nokia</p>
-		<p>Apple</p>
-		<p>Moto</p>
-		<script>  
-			var str = "MobilePhone";
-			var body = d3.select("body");
-			var p = body.selectAll("p");
-			p.datum(str);
-			p.text(function(d, i){
-			return "第 "+ i + " 个元素绑定的数据是 " + d;
-			});
-		</script> 
-	</body> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>HelloWorld</title> 
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> 
+    </head> 
+    <body> 
+        <p>Nokia</p>
+        <p>Apple</p>
+        <p>Moto</p>
+        <script>  
+            var str = "MobilePhone";
+            var body = d3.select("body");
+            var p = body.selectAll("p");
+            p.datum(str);
+            p.text(function(d, i){
+                return "第 "+ i + " 个元素绑定的数据是 " + d;
+            });
+        </script> 
+    </body> 
 </html>
 ```
 
 选择一个：
 
 ```html
-	<p id="id">hhh</p>
-	<script> 
-		var p=bodu.select("#id");
-	</script>  
+    <p id="id">hhh</p>
+    <script> 
+        var p=bodu.select("#id");
+    </script>  
 ```
 
 选择多个：
 
 ```html
-	<p class="id">first</p>
-	<p class="id">second</p>
-	<script> 
-		var p=bodu.select(".id");
-	</script>  
+    <p class="id">first</p>
+    <p class="id">second</p>
+    <script> 
+        var p=bodu.select(".id");
+    </script>  
 ```
 
 #### 如何绑定元素
@@ -79,11 +79,11 @@ author: 薛彬
 ```html
 <!DOCTYPE html>
 <html lang="zh-CN">
-	<head> 
+    <head> 
         <meta charset="utf-8"> 
         <title>HelloWorld</title> 
         <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> 
-	</head> 
+    </head> 
     <body> 
         <p>Nokia</p>
         <p>Apple</p>
@@ -97,7 +97,7 @@ author: 薛彬
               return d;
           });
         </script> 
-	</body> 
+    </body> 
 </html>
 ```
 

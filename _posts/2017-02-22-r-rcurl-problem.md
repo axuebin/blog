@@ -26,21 +26,21 @@ author: 薛彬
 ```R
 getURIs = function(uris, ..., multiHandle=getCurlMultiHandle(), .perform = TRUE)
 {
-  content = list()
-  curls = list()
-  for(i in uris) {
-    curl = getCurlHandle()
-    content[[i]] = basicTextGatherer()
-    opts = curlOptions(URL = i,forbid.reuse=TRUE,writefunction = content[[i]]$update)
-    curlSetOpt(.opts = opts, curl = curl)
-    multiHandle = push(multiHandle, curl)
-  }  
-  if(.perform) {
-    complete(multiHandle)
-    return(lapply(content, function(x) x$value()))
-  } else {
-    return(list(multiHandle = multiHandle, content = content))
-  }
+    content = list()
+    curls = list()
+    for(i in uris) {
+        curl = getCurlHandle()
+        content[[i]] = basicTextGatherer()
+        opts = curlOptions(URL = i,forbid.reuse=TRUE,writefunction = content[[i]]$update)
+        curlSetOpt(.opts = opts, curl = curl)
+        multiHandle = push(multiHandle, curl)
+    }  
+    if(.perform) {
+        complete(multiHandle)
+        return(lapply(content, function(x) x$value()))
+    } else {
+        return(list(multiHandle = multiHandle, content = content))
+    }
 }
 ```
 
@@ -51,14 +51,14 @@ getURIs = function(uris, ..., multiHandle=getCurlMultiHandle(), .perform = TRUE)
 ```R
 urls.temp<-NULL
 for(i in 1:length(data)) {
-	location = data[i] 
-	url <- paste("http://api.map.baidu.com/geocoder/v2/?ak=",AK,"&output=json&address=",location,"&city=","杭州市", sep = "")
+    location = data[i] 
+    url <- paste("http://api.map.baidu.com/geocoder/v2/?ak=",AK,"&output=json&address=",location,"&city=","杭州市", sep = "")
     url_string <- URLencode(url)
-	urls.temp<-c(urls.temp,url_string)
-	if((i%%500==0)||(is.na(data[i+1]))){
-		result<-getURIs(urls.temp)
-		urls.temp<-NULL
-	}
+    urls.temp<-c(urls.temp,url_string)
+    if((i%%500==0)||(is.na(data[i+1]))){
+        result<-getURIs(urls.temp)
+        urls.temp<-NULL
+    }
 }
 ```
 

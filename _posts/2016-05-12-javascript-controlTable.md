@@ -28,15 +28,15 @@ author: 薛彬
 
 ```html
 <table id="table">
-	<thead>
-		<tr>
-			<th>序号</th>
-			<th>年份</th>
-			<th>年度投资比例</th>
-		</tr>
-	</thead>
-	<tbody>
-	</tbody>
+    <thead>
+        <tr>
+            <th>序号</th>
+            <th>年份</th>
+            <th>年度投资比例</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
 </table>
 <div><button type="button" onclick="addTable1()">添加</button></div>
 ```
@@ -64,8 +64,7 @@ function addTable() {
 ### 删除行
 
 ```javascript
-function deltrTable(index)
-{
+function deltrTable(index){
     var _len = $("#table tr").length;
     $("#table tr[id='" + index + "']").remove(); //删除当前行
     for (var i = index + 1, j = _len; i < j; i++)
@@ -79,8 +78,7 @@ function deltrTable(index)
                         + "<td><input type='text' class='baifenshu' name='tzbl" + (i - 1) + "' value='" + nextTzbl + "' id='tzbl" + (i - 1) + "'/>&nbsp%</td>"
                         + "<td style='width:10%'><a href=\'#\' onclick=\'deltrTable1(" + (i - 1) + ")\'>删除</a></td>"
                         + "</tr>");
-    }
-    ;
+    };
 }
 ```
 
