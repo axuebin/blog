@@ -23,7 +23,7 @@ icon: heart
 
 ### 联系我
 
-![](http://i.imgur.com/tAmc0tc.jpg)
+![](http://omufjr5bv.bkt.clouddn.com/QR_Code.jpg)
 
 * WebSite：[http://axuebin.com](http://axuebin.com)
 * Github：[薛彬](http://github.com/axuebin)
