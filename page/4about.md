@@ -23,8 +23,6 @@ icon: heart
 
 ### 联系我
 
-![](http://omufjr5bv.bkt.clouddn.com/QR_Code1.jpg)
-
 * WebSite：[http://axuebin.com](http://axuebin.com)
 * Github：[薛彬](http://github.com/axuebin)
 * Email： [xb@axuebin.com](mailto:{{ site.email }})
