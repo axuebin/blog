@@ -10,6 +10,10 @@ author: 薛彬
 * content
 {:toc}
 
+
+
+
+
 ## 概念
 
 > ECMAScript中的函数使用`function`关键字来声明，后跟一组参数以及函数体。
