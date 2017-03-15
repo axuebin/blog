@@ -68,7 +68,7 @@ console.log(sumResult);//3
 
 看看这个例子：
 
-```javacript
+```javascript
 getName();//axuebin
 function getName(){
 	var name="axuebin";	
