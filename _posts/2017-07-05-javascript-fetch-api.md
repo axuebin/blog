@@ -37,8 +37,8 @@ es6写法：
 
 ```javascript
 fetch(url).then(response => response.json())
-		  .then(data => console.log(data))
-          .catch(function(e){
-			alert("出错啦");
-		  })
+	.then(data => console.log(data))
+	.catch(function(e){
+		alert("出错啦");
+	})
 ```
