@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "《深入理解es6》笔记--块级作用域绑定"
+title:  "小白学《深入理解es6》--块级作用域绑定"
 date:   2017-07-16 18:30:54
 categories: 前端
 tags: ES6
