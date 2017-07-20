@@ -2,7 +2,8 @@
 layout: post
 title:  "《JavaScript语言精粹》笔记一"
 date:   2016-07-25 09:03:00
-categories: JavaWeb
+categories: 读书笔记
+tags: JavaScript
 author: 薛彬
 ---
 
