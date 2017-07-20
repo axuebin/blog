@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript数组笔记"
 date:   2016-07-24 09:07:00
-categories: 读书笔记
+categories: 前端
 tags: JavaScript
 author: 薛彬
 ---

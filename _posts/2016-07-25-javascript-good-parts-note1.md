@@ -2,7 +2,7 @@
 layout: post
 title:  "《JavaScript语言精粹》笔记一"
 date:   2016-07-25 09:03:00
-categories: 读书笔记
+categories: 前端
 tags: JavaScript
 author: 薛彬
 ---
