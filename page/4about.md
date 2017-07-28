@@ -23,9 +23,10 @@ icon: heart
 
 ### 联系我
 
-* WebSite：[http://axuebin.com](http://axuebin.com)
+* 个人主页：[http://axuebin.com](http://axuebin.com)
 * Github：[薛彬](http://github.com/axuebin)
 * Email： [xb@axuebin.com](mailto:{{ site.email }})
+* 微信：xb9207
 * QQ：472749800
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "用React实现一个简易的TodoList"
 date:   2017-07-27 14:29:10
 categories: 前端
-tags: ES6
+tags: React
 author: 薛彬
 ---
 
@@ -327,4 +327,4 @@ export default class TodoBox extends React.Component {
 
 ## 源码
 
-源码在这：[https://github.com/axuebin/react-todolist](https://github.com/axuebin/react-todolist "https://github.com/axuebin/react-todolist") 
+完整的Demo代码在这：[https://github.com/axuebin/react-todolist](https://github.com/axuebin/react-todolist "https://github.com/axuebin/react-todolist") 
