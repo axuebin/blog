@@ -85,7 +85,7 @@ nice，就是这样。
 
 然后判断②-③<①是否成立，如果成立，元素就在可视区域内。
 
-#### 方法二（推荐）
+#### 方法二 getBoundingClientRect
 
 通过`getBoundingClientRect()`方法来获取元素的大小以及位置，MDN上是这样描述的：
 
@@ -213,3 +213,69 @@ img3的请求发出来，而后面的请求还是没发出~
 ### 完整demo
 
 在这哦：[http://axuebin.com/lazyload](http://axuebin.com/lazyload)
+
+## 更新
+ 
+### 方法三 IntersectionObserver
+
+经大佬提醒，发现了这个方法
+
+先附上链接：
+
+jjc大大：[https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/10](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know/issues/10)
+
+阮一峰大大：[http://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html](http://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html)
+
+API Sketch for Intersection Observers：[https://github.com/WICG/IntersectionObserver](https://github.com/WICG/IntersectionObserver)
+
+`IntersectionObserver`可以自动观察元素是否在视口内。
+
+```javascript
+var io = new IntersectionObserver(callback, option);
+// 开始观察
+io.observe(document.getElementById('example'));
+// 停止观察
+io.unobserve(element);
+// 关闭观察器
+io.disconnect();
+```
+
+callback的参数是一个数组，每个数组都是一个`IntersectionObserverEntry`对象，包括以下属性：
+
+|属性               |描述                                                                                          |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+|time              |可见性发生变化的时间，单位为毫秒                                                                  |
+|rootBounds        |与getBoundingClientRect()方法的返回值一样                                                       |
+|boundingClientRect|目标元素的矩形区域的信息                                                                         |
+|intersectionRect  |目标元素与视口（或根元素）的交叉区域的信息                                                         |
+|intersectionRatio |目标元素的可见比例，即intersectionRect占boundingClientRect的比例，完全可见时为1，完全不可见时小于等于0|
+|target            |被观察的目标元素，是一个 DOM 节点对象                                                             |
+
+我们需要用到`intersectionRatio`来判断是否在可视区域内，当`intersectionRatio > 0 && intersectionRatio <= 1`即在可视区域内。
+
+#### 代码
+
+```javascript
+function checkImgs() {
+  const imgs = Array.from(document.querySelectorAll(".my-photo"));
+  imgs.forEach(item => io.observe(item));
+}
+
+function loadImg(el) {
+  if (!el.src) {
+    const source = el.dataset.src;
+    el.src = source;
+  }
+}
+
+const io = new IntersectionObserver(ioes => {
+  ioes.forEach(ioe => {
+    const el = ioe.target;
+    const intersectionRatio = ioe.intersectionRatio;
+    if (intersectionRatio > 0 && intersectionRatio <= 1) {
+      loadImg(el);
+    }
+    el.onload = el.onerror = () => io.unobserve(el);
+  });
+});
+```
