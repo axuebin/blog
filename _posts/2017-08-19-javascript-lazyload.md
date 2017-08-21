@@ -80,8 +80,8 @@ nice，就是这样。
 网上看到好多这种方法，稍微记录一下。
 
 1. 通过`document.documentElement.clientHeight`获取屏幕可视窗口高度
-2. 通过`document.documentElement.scrollTop`获取浏览器窗口顶部与文档顶部之间的距离，也就是滚动条滚动的距离
-3. 通过`element.offsetTop`获取元素相对于文档顶部的距离
+2. 通过`element.offsetTop`获取元素相对于文档顶部的距离
+3. 通过`document.documentElement.scrollTop`获取浏览器窗口顶部与文档顶部之间的距离，也就是滚动条滚动的距离
 
 然后判断②-③<①是否成立，如果成立，元素就在可视区域内。
 
