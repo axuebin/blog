@@ -31,7 +31,7 @@ React的核心思想就是组件化思想，页面会被切分成一些独立的
 
 先看看`<ItemList/>`
 
-```javascrip
+```javascript
 import Item from "./item";
 export default class ItemList extends React.Component{
   const itemList = data.map(item => <Item item=item />);
@@ -47,7 +47,7 @@ export default class ItemList extends React.Component{
 
 在`<Item />`中是这样的：
 
-```javascrip
+```javascript
 export default class Item extends React.Component{
   render(){
     return (
