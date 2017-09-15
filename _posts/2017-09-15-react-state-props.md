@@ -12,7 +12,8 @@ author: 薛彬
 
 整理一下React中关于state和props的知识点。
 
-----
+
+
 
 
 
