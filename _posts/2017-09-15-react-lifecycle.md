@@ -161,3 +161,67 @@ componentDidMount() {
 3. componentWillUpdate()
 4. render()
 5. componentDidUpdate()
+
+#### componentWillReceiveProps()
+
+已加载的组件在`props`发生变化时调用，若需要更新状态，可能需要对比`this.props`和`nextProps`然后在该方法中使用`this.setState`来处理状态的改变。
+
+需要注意的是，有些情况下，即使`props`未改变也会触发该函数，所以一定要先比较`this.props`和`nextProps`再做操作。
+
+该函数只监听`props`的改变，`this.setState`不会触发这个函数。
+
+```javascript
+componentWillReceiveProps(nextProps){
+  if (this.props.color !== nextProps.color){
+    this.setState({});
+  }
+}
+```
+
+#### shouldComponentUpdate()
+
+这个函数只返回`true`或`false`，表示组件是否需要更新（重新渲染）。
+
+1. 返回`true`就是紧接着以下的生命周期函数；
+2. 返回`false`表示组件不需要重新渲染，不再执行任何生命周期函数（包括render）。
+
+这个函数使用需谨慎，react官方文档中说道，在未来这个函数返回`false`可能仍然使得组件重新渲染。
+
+#### componentWillUpdate()
+
+这个函数看名字就和`componentWillMount`很像，它执行的阶段也很像。在接收到新的`props`或者`state`之后，这个函数就会在`render`前被调用。
+
+同样的，在这个函数中不能使用`this.setState()`。如果需要更新状态，请在`componentWillReceiveProps`中调用`this.setState()`。
+
+#### render()
+
+又是一次的`render`。这和挂载阶段的`render`有什么区别呢？
+
+在函数的性质上来说，两者毫无区别，只不过是在生命周期的不同阶段的调用。
+
+- 前一个`render`是在组件第一次加载时调用的，也就是初次渲染，可以理解为`mount`；
+- 后一个`render`是除去第一次之后调用的，也就是再渲染，`re-render`；
+
+#### componentDidUpdate()
+
+同样地，这个方法是在组件`re-render`之后调用的，该方法不会在初始化的时候调用。和`componentDidMount`一样，在这个函数中可以使用`this.refs`获取真实DOM。
+
+还可以修改`state`哦，不过会导致组件再次`re-render`。
+
+### 卸载阶段（Unmounting）
+
+该方法将会在 component 从DOM中移除时调用
+
+- componentWillUnmount()
+
+#### componentWillUnmount()
+
+卸载阶段就很简单了，就这一个生命周期函数，在组件被卸载和销毁之前立刻调用。
+
+在这个函数中，应该处理任何必要的清理工作，比如销毁定时器、取消网络请求、清除之前创建的相关DOM节点等。
+
+## 生命周期流程图
+
+![](http://omufjr5bv.bkt.clouddn.com/react-lifecycle%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.png)
+
+
