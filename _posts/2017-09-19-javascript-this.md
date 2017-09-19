@@ -29,6 +29,7 @@ ECMAScript规范中这样写：
 MDN上这样写：
 
 > In most cases, the value of this is determined by how a function is called.
+
 > 在绝大多数情况下，函数的调用方式决定了this的值。
 
 可以这样理解，在JavaScript中，`this`的指向是调用时决定的，而不是创建时决定的，这就会导致`this`的指向会让人迷惑，简单来说，`this`具有运行期绑定的特性。
@@ -151,6 +152,7 @@ console.log(f());
 MDN中对于箭头函数这一部分是这样描述的：
 
 > An arrow function does not create its own this, the this value of the enclosing execution context is used.
+
 > 箭头函数会捕获其所在上下文的this值，作为自己的this值。
 
 ```javascript
