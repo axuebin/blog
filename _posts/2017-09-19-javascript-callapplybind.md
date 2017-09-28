@@ -234,7 +234,7 @@ fnStr += ')';//得到"context.fn(arg1,arg2,arg3...)"这个字符串在，最后�
 eval(fnStr); //还是eval强大
 ```
 
-### 第三步，当传入apply的this为null或者为空时
+#### 第三步，当传入apply的this为null或者为空时
 
 我们知道，当`apply`的第一个参数，也就是`this`的指向为`null`时，`this`会指向`window`。知道了这个，就简单了~
 
@@ -300,7 +300,7 @@ var fn = Symbol();
 context[fn] = this;
 ```
 
-### 完整的apply
+#### 完整的apply
 
 ```javascript
 Function.prototype.myApply=function(context){
