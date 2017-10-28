@@ -652,3 +652,5 @@ while ((result = patt.exec(issues))) {
   - 服务端渲染。这就麻烦了，但是好处也多，不仅解决渲染问题，还有利于SEO，所以也是 `todo` 之一
 - 代码混乱，逻辑不对。这是我自己的问题，需要再修炼。
 
+
+原文地址：[https://github.com/axuebin/react-blog/issues/17](https://github.com/axuebin/react-blog/issues/17)
